@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "\"Browser based game\"",
   "main": "index.js",
-  "dependencies": {
-    "core-js": "^3.4.2"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src -d dist"
@@ -23,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/AsotikovAnton/ajs-homeworks/issues"
   },
-  "homepage": "https://github.com/AsotikovAnton/ajs-homeworks#readme"
+  "homepage": "https://github.com/AsotikovAnton/ajs-homeworks#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "core-js": "^3.4.2"
+  }
 }
